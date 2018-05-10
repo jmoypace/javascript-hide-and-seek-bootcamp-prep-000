@@ -13,8 +13,8 @@ function nestedTarget(){
 }
 function increaseRankBy(n){
    let element = document.getElementsByClassName('.ranked-list').innerHTML;
-   for(var i=0;i<element.length;i++){
-     element[i]=parseInt(element[i])+n;
+   for(var i=0; i<element.length; i++){
+     element[i]=element[i]+n;
    }
    return element;
 }
