@@ -21,8 +21,5 @@ return lis;
 }
 function deepestChild(){
   let element=document.querySelectorAll('div#grand-node')
-  element=element.length
-    
-  
   return element;
 }
