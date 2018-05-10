@@ -13,9 +13,13 @@ function nestedTarget(){
 }
 function increaseRankBy(n){
   // var element = document.getElementsByClassName('.ranked-list').innerHTML=parseInt(element)+n;
-   
   // return element;
-   
+   const rankedLists = document.querySelectorAll('.ranked-list')
+
+  for (let i = 0; i < rankedLists.length;  i++) {
+    let children = parseInt(rankedLists[i])+n;
+}
+
 }
 function deepestChild(){
   
