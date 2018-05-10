@@ -21,5 +21,5 @@ return lis;
 }
 function deepestChild(){
   let element=document.querySelectorAll('grand-node');
-  return element[element.length-1];
+  return element[element.length-1].innerHTML;
 }
