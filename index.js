@@ -13,8 +13,10 @@ function nestedTarget(){
 }
 function increaseRankBy(n){
    var element = document.querySelectorAll('.ranked-list').innerHTML;
+   for(var i=0;i<element.length;i++){
+     element[i]=parseInt(element[i])+n;
+   }
    return element;
-   
 }
 function deepestChild(){
   
