@@ -6,10 +6,10 @@ function getFirstSelector(selector){
   //element is not defined
 }
 function nestedTarget(){
-  var element=document.getElementsByTagName('div')[0];
+ // var element=document.getElementsByTagName('div')[0];
+  
+  var element=document.querySelector('#nested .target')
   return element;
-  //index nestedTarget() pulls a .target out of #nested:
-     //Error: Expected undefined to equal <div class="target">...</div>
 }
 function increaseRankBy(n){
    const lis = document.querySelectorAll('.ranked-list');
