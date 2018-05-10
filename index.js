@@ -20,7 +20,7 @@ function increaseRankBy(n){
    const lis = document.getElementsByTagName('.ranked-list');
  
 for (let i = 0; i < lis.length; i++) {
-  lis[i].innerHTML= toNumber(lis[i])+n;
+  lis[i].innerHTML= Number(lis[i])+n;
 }
 return lis;
 }
