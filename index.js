@@ -12,14 +12,9 @@ function nestedTarget(){
      //Error: Expected undefined to equal <div class="target">...</div>
 }
 function increaseRankBy(n){
-  // var element = document.getElementsByClassName('.ranked-list').innerHTML=parseInt(element)+n;
-  // return element;
-   const rankedLists = document.querySelectorAll('.ranked-list')
-  var children;
-  for (let i = 0; i < rankedLists.length;  i++) {
-    children = parseInt(rankedLists[i])+n;
-}
-return children;
+   var element = document.getElementsByClassName('.ranked-list').innerHTML=parseInt(element)+n;
+   return element;
+   
 }
 function deepestChild(){
   
