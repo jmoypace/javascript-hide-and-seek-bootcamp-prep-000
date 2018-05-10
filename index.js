@@ -17,7 +17,7 @@ function increaseRankBy(n){
   //   element[i]=element[i]+n;
   // }
   // return element;
-   const lis = document.getElementsByTagName('.ranked-list');
+   const lis = document.querySelectorAll('.ranked-list');
  
 for (let i = 0; i < lis.length; i++) {
   lis[i].innerHTML= parseInt(lis[i])+n;
