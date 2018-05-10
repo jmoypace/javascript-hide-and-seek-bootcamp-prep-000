@@ -12,7 +12,7 @@ function nestedTarget(){
      //Error: Expected undefined to equal <div class="target">...</div>
 }
 function increaseRankBy(n){
-   var element = document.getElementsByTagName('.ranked-list').innerHTML=parseInt(element)+n;
+   var element = document.getElementsByTagName('.ranked-list').innerHTML=element+n;
    
    return element;
    
