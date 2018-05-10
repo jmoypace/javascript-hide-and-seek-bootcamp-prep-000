@@ -20,6 +20,6 @@ for (let i = 0; i < lis.length; i++) {
 return lis;
 }
 function deepestChild(){
-  let element=document.getElementById('#grand-node');
+  let element=document.querySelector('#grand-node div div div div');
   return element;
 }
