@@ -1,7 +1,7 @@
 function getFirstSelector(selector){
   
  //var element = document.querySelector(selector);
- var element=document.querySelector('.ranked-list')
+ var element=document.querySelector('selector')
  return element;
  //index getFirstSelector(selector) returns the first element that matches theselector:
   //element is not defined
