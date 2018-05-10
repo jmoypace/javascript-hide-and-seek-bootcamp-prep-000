@@ -17,10 +17,10 @@ function increaseRankBy(n){
   //   element[i]=element[i]+n;
   // }
   // return element;
-   const lis = document.getElementsByTagName('.ranked-list')
+   const lis = document.getElementsByTagName('.ranked-list').innerHTML;
  
 for (let i = 0; i < lis.length; i++) {
-  lis[i].innerHTML = parseInt(lis[i])+n;
+  lis[i] = parseInt(lis[i])+n;
 }
 return lis;
 }
